@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>test</title>
+        <title>Test Nedelja Druga</title>
     </head>
     <body>
+		<h1>Nedelja druga</h1>
 		<h2>Table of Contents</h2>
+		<style>
+			h1, h2{
+				color: red;
+				}
+			div2 ol li{
+					color: green;
+					font-size: 21px;
+					}
+			div2 ul li{
+					color: #8A0808;
+					font-size: 18px;
+					}
+			p{
+				border-style: solid;
+				border-width: 1px;
+				border-color: red;
+				border-right: 30%;
+				width: 75%;
+				}
+			p:hover{
+				background-color:#F5A9BC;
+				}
+			p::selection{
+				color: red;
+				background-color: yellow;
+				}
+			input[type="text"]{
+				background-color: #A9F5BC;
+				}
+			input[type="number"]{
+				background-color: #F2F5A9;
+				}
+			ul{
+				color: #2E9AFE;
+				}
+			body{
+				margin-left: 90px;
+				}
+			a::before{
+					content:"\1F644 Click Here";
+					font-weight: bold;
+					}
+			a:hover{
+					color:#FF8000;
+					}
+		</style>
 		<ul>
-			<li><a href="#selection1">Selection1</a></li>
-			<li><a href="#selection2">Selection2</a></li>
-			<li><a href="#selection3">Selection3</a></li>
+			<li><a href="#selection1"> now</a></li>
+			<li><a href="#selection2"> now</a></li>
+			<li><a href="#selection3"> now</a></li>
 		</ul>
 		<ol>
 			<li>
@@ -23,7 +70,7 @@
 				</p>
 			</li>
 			<li>
-				<h2 id="selection2">Selection2">Selection2</h2>
+				<h2 id="selection2"Selection2">Selection2</h2>
 				<p>
 					Part 2:Leadership Capability 1: Leading Beyond the Edge.
 
@@ -47,8 +94,96 @@
 			</li>
 		</ol>
 		<ul>
-			<li><a href="hellow.html">Klikni ovde za hellow</a></li>
-			<li><a href="links1.html">Klikni ovde za paragrafe</a></li>
+			<li><a href="hellow.html"> za hellow</a></li>
+			<li><a href="links1.html"> za paragrafe</a></li>
 		</ul>
+		<div>
+			<input name="name" type="text" placeholder="Name">
+			<input name="password" type="password" placeholder="Password">
+		</div>
+		<div>
+			<input name="color" type="radio" value="red">Red
+			<input name="color" type="radio" value="green">Green
+			<input name="color" type="radio" value="blue">Blue
+			<input name="color" type="radio" value="other">Other
+		</div>
+		<div>
+			<input name="grad" list="gradovi" placeholder="Cities">
+				<datalist id="gradovi">
+					<option value="Hastings">
+					<option value="Peel">
+					<option value="Brant">
+					<option value="Brant">
+					<option value="Leeds">
+					<option value="Halton">
+					<option value="Waterloo">
+					<option value="Prescott">
+					<option value="Stormont">
+					<option value="Kenora">
+					<option value="Algoma">
+					<option value="Sudbury">
+					<option value="Wellington">
+					<option value="Haldimand">
+					<option value="Hamilton">
+					<option value="Kawartha">
+					<option value="Kenora">
+					<option value="Frontenac">
+					<option value="Waterloo">
+					<option value="Middlesex">
+					<option value="York">
+					<option value="Peel">
+					<option value="Niagara">
+					<option value="Norfolk">
+					<option value="Nipissing">
+					<option value="Simcoe">
+					<option value="Durham">
+					<option value="Ottawa">
+					<option value="Grey">
+					<option value="Renfrew">
+					<option value="Peterborough">
+					<option value="Durham">
+					<option value="Niagara">
+					<option value="Prince Edward">
+					<option value="Hastings">
+					<option value="York">
+					<option value="Lambton">
+					<option value="Algoma">
+					<option value="Niagara">
+					<option value="Elgin">
+					<option value="Perth">
+					<option value="Timiskaming">
+					<option value="Niagara">
+					<option value="Thunder Bay">
+					<option value="Cochrane">
+					<option value="Toronto">
+					<option value="York">
+					<option value="Waterloo">
+					<option value="Niagara">
+					<option value="Essex">
+					<option value="Oxford">
+				</datalist>
+			<div2>
+			<ol>
+				<li>Prvi red</li>
+				<li>Drugi red</li>
+				<li>Treci red</li>
+					<ul>
+						<li>Prvi nesredjeni</li>
+						<li>Drugi nesredjeni</li>
+					</ul>
+				<li>Cetvrti red</li>
+			</ol>
+			</div2>
+		</div>
+		<ul>
+			<li>Nova lista 1</li>
+			<li>Nova lista 2</li>
+			<li>Nova lista 3</li.
+		</ul>
+		<form>
+			<input name="name" type="text" placeholder="First Name">
+			<input name="name" type="text" placeholder="Last Name">
+			<input name="name" type="number" placeholder="Age">
+		</form>
     </body>
 </html>
