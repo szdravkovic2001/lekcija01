@@ -4,7 +4,7 @@
         <title>Test Nedelja Druga</title>
     </head>
     <body>
-		<h1>Nedelja druga</h1>
+		<h1></h1>
 		<h2>Table of Contents</h2>
 		<style>
 			h1, h2{
@@ -64,6 +64,16 @@
 			@media (max-width: 749px){
 							body{
 								background-color: #58D3F7;
+								}
+							}
+			@media (min-width: 750px){
+					h1::before{
+								content:"Nedelja druga dobro dosli";
+								}
+							}
+			@media (max-width: 749px){
+					h1::before{
+								content: "Nedelja druga";
 								}
 							}
 		</style>
